@@ -1,0 +1,91 @@
+body{
+    background:hsl(217, 54%, 11%);
+}
+
+#container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#eqb-img{
+    width: 300px;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+}
+
+#card{
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    border: none;
+    border-radius: 15px;
+    
+}
+
+
+#header{
+    font-size: 22px;
+    margin: 25px 0;
+    color: hsl(0, 0%, 100%);
+}
+
+#header:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+#content{
+    margin: 25px 0;
+    color: hsl(215, 51%, 70%)
+}
+
+#numbers{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+#amount{
+    color: hsl(178, 100%, 50%);
+}
+
+#days{
+   color: hsl(215, 51%, 70%);
+}
+
+#author{
+   border-top: 1px solid hsl(215, 32%, 27%);
+   display: flex;
+   padding-top: 18px;
+   align-items: center;
+}
+
+#avatar{
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    width: 30px;
+}
+
+#author-text{
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+#card-text{
+    width: 300px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+#author-color{
+    color: hsl(0, 0%, 100%);
+}
+
+#author-color:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
